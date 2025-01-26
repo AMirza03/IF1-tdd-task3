@@ -1,4 +1,4 @@
-from main.py import is_palindrome
+from main import is_palindrome
 
 def test_right_palindrome():
     assert is_palindrome("level") == True
